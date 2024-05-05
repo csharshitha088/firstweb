@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    font-family:serif;
+    font-size: large;
+    color:midnightblue;
+    font-style:strong;
+    
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+    
+
+}
+.about{
+    text-align: center;
+    font-size: 2.3em;
+    margin: 0%;
+}
+.nav a{
+    display: inline-block;
+    padding: .9em;
+    color: rgb(211, 194, 194);
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: rgb(156, 176, 189) ;
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 2em;
+    border-bottom: 1px solid white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main-nav li{
+    padding: 0 3%;
+}
+
+.band{
+    text-align: center;
+    color: rgb(17, 16, 15);
+    font-size: 4em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+
+}
+
+.band-big{
+    font-size: 4em;
+}
+.circle{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 15px;;
+    float: left;
+                
+}
+
+.para{
+    font-size: larger;
+    margin-bottom: 5%;
+}
+.main-header{
+    background-image: url(images/lastbg.jpg);
+    background-size: cover;
+    padding-bottom: 30px;
+  
+}
+.footer-main{
+    background-color: rgb(183, 153, 183);
+   
+
+
+}
+.my-foot{
+    font-size: 1.9em;
+    
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container{
+    flex-grow: 1;
+
+
+}
+.footer-nav img{
+    width: 25%;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    cursor:pointer;
+    padding: 0.6em;
+
+}
+.btn-header{
+    margin: 0.5em 15% 1em 40%;
+    color: rgb(100, 188, 143);
+    border: 5px solid rgb(235, 230, 230);
+    background-color: rgba(72, 63, 95, 0.737);
+    font-weight:lighter;
+    font-size: 1.3em;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+
+}
+.btn-header:hover{
+    background-color: rgba(221, 226, 231, 0.35);
+  
+} 
+
+.btn-play{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    
+    
+}
+
+.tour-row{
+   
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+.tour-row:last-child{
+    border-bottom: none;
+}
+.tour-row:first-child{
+    border-top: 1px solid black;
+}
+.tourbold{
+    font-size: 1em;
+}
+
+.tour-item{
+    display: inline-block;
+    padding-right: .6em;
+    
+}
+
+.tour-date{
+    width: 8%;
+}
+.tour-place{
+    width: 8%;
+}
+
+.tour-venue{
+    width: 15%;
+
+}
+.tour-btn{
+    max-width: 23%;
+}
+
+.tour-btn{
+    color: rgba(20, 12, 5, 0.91);
+    border: none;
+    font-weight: bold;
+    border-radius: 1em;
+    background-color: rgb(155, 232, 206);
+}
+.tour-btn:hover{
+    background-color: rgba(208, 93, 40, 0.914);
+}
